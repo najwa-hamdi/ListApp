@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>semi-final</title>
+        <link href="E:\MyProjects\semi-final JS project\css\stylesheet.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <div class="searchMember">
+                    <form>
+                        <label>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </label>
+                        <input id="search" name="search" type="search" placeholder="search contact">
+                    </form>
+                </div>
+                <div class="addMember">
+                    <button class="addNewMember">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Add new contact
+                    </button>
+                </div>
+            </header>
+            <section class="overlayForm">
+                <div class="addNewContact">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <form>
+                        <input type="text" id="contactFormName" placeholder="Full Name">
+                        <input type="text" id="contactFormPhone" placeholder="Phone Number">
+                        <input type="email" id="contactFormEmail" placeholder="Email Address">
+                        <input type="text" id="contactFormAddress" placeholder="Home Address">
+                    </form>
+                    <button class="saveBtn btn">
+                        <i class="fa-regular fa-floppy-disk"></i>
+                        Save
+                    </button>
+                    <div class="closeBtn">
+                        <i class="fa-regular fa-rectangle-xmark"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tableSection">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#id</th>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tBody">
+                        
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="E:\MyProjects\semi-final JS project\JS\main.js"></script>
+    </body>
+</html>
